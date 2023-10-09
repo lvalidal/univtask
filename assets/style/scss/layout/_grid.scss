@@ -1,0 +1,459 @@
+#rush {
+
+    margin: 40px;
+
+    margin-top: 300px;
+
+    .idk {
+
+        display: grid;
+        gap: 40px;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: space-around;
+        margin-top: 50px;
+        object-fit: cover;
+        overflow: hidden;
+
+        .hurry {
+
+            width: 700px;
+            height: 400px;
+            object-fit: cover;
+            overflow: hidden;
+            border: 0px solid black;
+            background-color: $white;
+            border-radius: 10px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            padding: 20px;
+
+            img{
+                @include wh;
+            }
+
+           
+        }
+
+       
+    }
+
+
+}
+
+.try {
+
+    border: 0px solid ;
+    width: 500px;
+    height: 400px;
+    border: 0px solid black;
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 20px;
+
+    hr {
+
+        width: 40px;
+        background-color: $blue;
+        
+
+    }
+
+    h6{
+
+        color: $blue;
+    }
+    
+
+    p{
+        color: gray;
+
+
+    }
+
+    button {
+
+        background-color: $blue;
+        color: $white;
+        width: 140px;
+        height: 50px;
+        border: 0px solid;
+        border-radius: 10px;
+
+    }
+
+
+   
+}
+
+  
+
+  @media (max-width: 600px) {
+    .idk { grid-template-columns: repeat(1, 1fr); }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+#another {
+
+    margin: 50px;
+    margin-top: 100px;
+
+    .icons {
+
+        display: grid;
+        gap: 40px;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: space-around;
+        margin-top: 50px;
+
+
+
+        i{
+
+            color: $blue;
+        }
+
+    .iconone {
+
+       
+        border: 0px solid black;
+        background-color: $white;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        padding: 20px;
+
+    }
+
+    .icontwo {
+
+        border: 0px solid black;
+        background-color: $white;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        padding: 20px;
+
+    }
+
+    .iconthree {
+
+        border: 0px solid black;
+        background-color: $white;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        padding: 20px;
+
+    }
+
+    
+
+}
+
+@media (max-width: 900px) {
+    .icons { grid-template-columns: repeat(2, 1fr); }
+  }
+  
+
+  @media (max-width: 600px) {
+    .icons { grid-template-columns: repeat(1, 1fr); }
+  }
+
+}
+
+
+#cards {
+
+    margin: 40px;
+
+
+
+    .mycard {
+
+        display: grid;
+        gap: 40px;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: space-around;
+        margin-top: 50px;
+        object-fit: cover;
+        overflow: hidden;
+        
+
+        
+     img {
+
+       @include www;
+    }
+    }
+
+    
+    
+    
+    
+    .cardone{
+    
+        border: 0px solid black;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        background-color: $white;
+
+        .wordone {
+
+            padding: 20px;
+        }
+    }
+    
+    .cardtwo{
+    
+        border: 0px solid black;
+        border-radius: 10px;
+        background-color: $white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+        .wordtwo {
+
+            padding: 20px;
+        }
+      
+    }
+    
+    .cardthree{
+    
+        border: 0px solid black;
+        border-radius: 10px;
+        background-color: $white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+        .wordthree {
+
+            padding: 20px;
+        }
+       
+    }
+    
+    .cardfour{
+    
+        border: 0px solid black;
+        background-color: $white;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+        .wordfour {
+
+            padding: 20px;
+        }
+        
+    }
+    
+    .cardfive{
+    
+        border: 0px solid black;
+        background-color: $white;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+        .wordfive {
+
+            padding: 20px;
+        }
+      
+    }
+    
+    .cardsix {
+    
+        border: 0px solid black;
+        background-color: $white;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+        .wordsix {
+
+            padding: 20px;
+        }
+        
+    }
+
+   
+    
+    
+    
+    @media (max-width: 900px) {
+        .mycard { grid-template-columns: repeat(2, 1fr); }
+      }
+      
+    
+      @media (max-width: 600px) {
+        .mycard { grid-template-columns: repeat(1, 1fr); }
+      }
+
+      button {
+
+        background-color: $blue;
+        color: $white;
+        border: 0px solid;
+        border-radius: 5px;
+        width: 50px;
+        height: 20px;
+        margin-left: 80px;
+      }
+
+      p {
+        color: gray;
+      }
+
+      i{
+        color: $blue;
+      }
+    
+    
+}
+
+
+
+
+#end {
+
+    margin: 50px;
+    margin-top: 100px;
+
+    .final {
+
+        display: grid;
+        gap: 40px;
+        grid-template-columns: 300px 300px 300px 300px;
+        justify-content: space-around;
+        margin-top: 50px;
+        
+
+
+        .abc {
+
+            text-align: center;
+            margin-top: 10px ;
+
+            p {
+
+                color: $blue;
+            }
+        }
+        
+
+
+       
+
+    }
+
+
+
+
+    .first {
+
+       
+        border: 0px solid black;
+        background-color: $white;
+        border-radius: 10px;
+       
+        padding: 20px;
+
+    }
+
+    .second {
+
+        border: 0px solid black;
+        background-color: $white;
+        border-radius: 10px;
+       
+        padding: 20px;
+
+    }
+
+    .third {
+
+        border: 0px solid black;
+        background-color: $white;
+        border-radius: 10px;
+        
+        padding: 20px;
+
+    }
+
+    .fourth {
+
+        border: 0px solid black;
+        background-color: $white;
+        border-radius: 10px;
+       
+        padding: 20px;
+
+    }
+
+    
+
+}
+
+@media (max-width: 900px) {
+    .final { grid-template-columns: repeat(2, 2fr); }
+  }
+  
+
+  @media (max-width: 600px) {
+    .final { grid-template-columns: repeat(1, 1fr); }
+  }
+
+
+
+.image{
+
+
+    object-fit: cover;
+     overflow: hidden;
+    border: 0px solid;
+    width: 100% ;
+    height: 350px;
+    position: relative;
+    transition: transform 2s;
+
+    &:hover {
+        transform: scale(2);
+    }
+
+
+
+
+img {
+
+    @include www ;
+    
+
+}
+
+.xyz {
+
+    position: absolute;
+    border: 0px solid;
+    background-color: $white;
+    width: 80px;
+    height: 80px;
+
+  
+        
+    
+ }
+
+    i{
+        color: $blue;
+    }
+}
+
+
+
+
+
+

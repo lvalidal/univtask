@@ -1,0 +1,41 @@
+header {
+
+    @include www;
+  background-color: aliceblue;
+
+
+
+    nav {
+
+        display: flex;
+        @include www;
+       justify-content: space-around;
+        margin: 40px;
+        
+
+        
+     .start {
+
+       
+
+    p {
+        color: $blue;
+    }
+        }
+
+        .rest {
+            display: flex;
+        }
+
+        
+    }
+
+
+   
+
+      
+
+
+
+
+}
