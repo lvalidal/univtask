@@ -1,0 +1,201 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+$white : white ;
+
+@mixin wh {
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+@mixin www {
+
+    width: 100%;
+    
+}
+
+header {
+
+    @include www;
+  background-color: aliceblue;
+
+
+
+    nav {
+
+        display: flex;
+        @include www;
+       justify-content: space-around;
+        margin: 40px;
+        
+
+        
+     .start {
+
+       
+
+    p {
+        color: dodgerblue;
+    }
+        }
+
+        .rest {
+            display: flex;
+        }
+
+        
+    }
+
+
+   
+
+      
+
+
+
+
+}
+
+
+#blue {
+
+    background: dodgerblue;
+    
+   @include www;
+    height: 10vh;
+
+
+.ww {
+
+    @include www;
+
+    margin: 70px;
+
+    
+
+   
+    .line {
+
+      
+       
+       
+
+        ul {
+
+            display: flex;
+            justify-content: space-around;
+           
+           li{ 
+
+            
+           margin-top: 40px;
+            a {
+
+                color: $white;
+            }
+        }
+        }
+    }
+}
+
+}
+
+#pic {
+
+    @include www;
+    height: 58vh;
+
+    .water {
+
+
+        @include  wh      ;
+        object-fit: cover;
+        overflow: hidden;
+        position: relative;
+
+        img {
+
+            @include wh;
+        }
+
+
+    }
+
+    // .aqua {
+
+    //     h2 {
+    //         position: absolute;
+    //         display: inline-block;
+    //         margin-top: 500px;
+    //         color: black;
+    //     }
+    //     p {
+    //         position: absolute;
+    //         display: inline-block;
+    //         margin-top: 500px;
+    //         color: black;
+    //     }
+    // }
+
+
+}
+
+#rush {
+
+    margin: 40px;
+
+    .idk {
+
+        display: flex;
+        justify-content: space-around;
+
+        .hurry {
+
+            width: 500px;
+            height: 400px;
+            object-fit: cover;
+            overflow: hidden;
+
+            img{
+                @include wh;
+            }
+
+           
+        }
+    }
+
+
+}
+
+.try {
+
+    border: 0px solid ;
+    width: 500px;
+    height: 400px;
+    
+
+    p{
+
+
+    }
+
+    button {
+
+        background-color: dodgerblue;
+        color: $white;
+        width: 100px;
+        height: 50px;
+
+    }
+
+
+   
+}

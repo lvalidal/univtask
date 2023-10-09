@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  background-color: aliceblue;
+}
+header nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 40px;
+}
+header nav .start p {
+  color: dodgerblue;
+}
+header nav .rest {
+  display: flex;
+}
+
+#blue {
+  background: dodgerblue;
+  width: 100%;
+  height: 10vh;
+}
+#blue .ww {
+  width: 100%;
+  margin: 70px;
+}
+#blue .ww .line ul {
+  display: flex;
+  justify-content: space-around;
+}
+#blue .ww .line ul li {
+  margin-top: 40px;
+}
+#blue .ww .line ul li a {
+  color: white;
+}
+
+#pic {
+  width: 100%;
+  height: 58vh;
+}
+#pic .water {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  position: relative;
+}
+#pic .water img {
+  width: 100%;
+  height: 100%;
+}
+
+#rush {
+  margin: 40px;
+}
+#rush .idk {
+  display: flex;
+  justify-content: space-around;
+}
+#rush .idk .hurry {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  overflow: hidden;
+}
+#rush .idk .hurry img {
+  width: 100%;
+  height: 100%;
+}
+
+.try {
+  border: 0px solid;
+  width: 500px;
+  height: 400px;
+}
+.try button {
+  background-color: dodgerblue;
+  color: white;
+  width: 100px;
+  height: 50px;
+}/*# sourceMappingURL=index.css.map */
